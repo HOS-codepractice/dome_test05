@@ -98,3 +98,30 @@ small {
   margin: 20px auto;
   text-align: center;
 }
+
+@media screen and (max-width:834px) {
+  .flex {
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .flex>* {
+    width: 100%;
+    /* 子要素の幅を100%に変更 */
+  }
+
+  main img {
+    width: 100%;
+    /* 画像を横幅いっぱいに表示 */
+    height: auto;
+    /* アスペクト比を維持 */
+  }
+
+  #item {
+    padding: 35px 15px;
+  }
+
+  h3 {
+    width: 60%;
+  }
+}
