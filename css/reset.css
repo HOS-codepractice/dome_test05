@@ -85,15 +85,14 @@ ul,
 ol {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 /* Lists (definition) */
 /* ============================================ */
 
-dt {
+/* dt {
   font-weight: bold;
-}
+} */
 
 dd {
   margin-left: 0;
@@ -228,7 +227,7 @@ iframe {
 }
 
 /* 画像の最大サイズは親要素の100% */
-img{
+img {
   max-width: 100%;
 }
 
